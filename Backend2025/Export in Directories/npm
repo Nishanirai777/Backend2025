@@ -1,1 +1,2 @@
-
+first make mkDir figletDir
+then npm install figlet
