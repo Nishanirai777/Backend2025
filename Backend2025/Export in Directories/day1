@@ -1,1 +1,4 @@
-
+first make a fruits name folder and make file under that folder using 
+touch apple.js
+touch banana.js
+touch orange.js
