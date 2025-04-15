@@ -1,1 +1,9 @@
 
+first creat folder using mkdir 
+then 
+install 
+nom i express
+npm i ejs
+npm init-y
+also create public folder for style.css and js
+and views for the html
