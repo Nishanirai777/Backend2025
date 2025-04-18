@@ -25,6 +25,16 @@ User.updateOne({ name: "tony" }, {age: 60})
 .catch((err)=>{
     console.log(err);
 });
+//for update many
+//for update many do this
+User.updateMany({ age:{$gt:47} }, {age: 99})
+.then((res)=>{
+    console.log(res);
+
+})
+.catch((err)=>{
+    console.log(err);
+});
 // const emplyoee= mongoose.model("Emplyoee",userSchema);
 
 //insert many
