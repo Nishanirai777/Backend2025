@@ -36,6 +36,16 @@ console.log(res);
 .catch((err)=>{
 console.log(err);
 });
+//we can delete like this also
+//for delete do this
+User.findByIdAndDelete(("678726b202f2a099497a30d2")
+)
+.then((res)=>{
+console.log(res);
+})
+.catch((err)=>{
+console.log(err);
+});
 // const emplyoee= mongoose.model("Emplyoee",userSchema);
 
 //insert many
