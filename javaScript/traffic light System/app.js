@@ -1,15 +1,17 @@
-//traffic light System
-let color = "blue";
-if (color === "red") {
-    console.log("Stop! the light color is red now..");
+//creating  a sustem to calculate popcorn prices based on the sixe customer asked for:
+let size ="xl";
+if(size==="xl"){
+    console.log("the price of popcorn is Rs.250");
 }
-  else if (color === "yellow") {
-    console.log("slow down the light color is yellow now");
- }
- else if (color === "green") {
-    console.log("Go light color is green");
-}else{
-    console.log("traffic light is broken!(sorry)");
+else if(size=== "l"){
+    console.log("the price of popcorn is RS.200");
 }
-
-
+else if(size=== "m"){
+    console.log("the price of popcorn is RS.100");
+}
+else if(size==="s"){
+    console.log("the price of the popcorn is Rs.50");
+}
+else{
+    console.log("sorry  ");
+}
