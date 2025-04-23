@@ -5,3 +5,8 @@ if(age>=18){
 }
 
 console.log("so  you have many responsibalities");
+//you can do this also
+let firstName = "Nisha";
+if(firstName == "Nisha"){
+    console.log(`welcome to website of ${firstName}`);
+};
