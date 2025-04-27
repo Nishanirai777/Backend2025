@@ -1,0 +1,12 @@
+let cars =["maruti","bmw","honda","xuv"];
+console.log(cars);
+cars.push("Nisha");
+console.log(cars);
+cars.pop();
+console.log(cars);
+cars.unshift("sabita");
+console.log(cars);
+cars.unshift("sara");
+console.log(cars);
+cars.shift();
+console.log(cars);
