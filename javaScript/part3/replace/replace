@@ -1,1 +1,7 @@
 
+//practices 
+
+
+let msg = "help";
+let c= msg.trim();
+console.log(c.toLocaleUpperCase());
