@@ -1,9 +1,8 @@
-let nish= ["january","july","march","august"];
-nish.shift();
-console.log(nish);
-nish.shift();
-console.log(nish);
-nish.unshift("june");
-console.log(nish);
-nish.unshift("july");
-console.log(nish);
+let months =["january", "july", "march", "august"];
+console.log(months);
+let a = months.splice(0,1);
+console.log(a);
+console.log(months);
+let b= months.splice(1,0,"june");
+console.log(b);
+console.log(months);
